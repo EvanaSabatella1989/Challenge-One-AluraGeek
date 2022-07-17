@@ -38,31 +38,40 @@ body{
     margin-left: 150px;
 }
 
-.banner__imagen{
-    width: 100%;
+.banner{
     height: 300px;
 }
 
+.banner__imagen{
+    width: 100%;
+    /* height: 300px; */
+}
+
+.banner__contenido{
+    
+    
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 80%;
+    transform: translate(-50%, -50%);
+    line-height: 50px;
+}
 .banner__titulo{
     color: #fdfdfd;
-    font-size: 3rem;
-    position: absolute;
-    left: 54%;
-    top: 45%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    width: 100%;
-    transform: translate(-50%, -50%);
+    font-size: 2.8rem;
 }
 
 .banner__subtitulo{
     color: #fdfdfd;
-    font-size: 1.25rem;
-    position: absolute;
-    left: 54%;
-    top: 54%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    width: 100%;
-    transform: translate(-50%, -50%);
+    font-size: 1.15rem;
+    /* position: absolute; */
+    /* left: 54%; */
+    /* top: 54%; */
+    /* text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75); */
+    /* width: 100%; */
+    /* transform: translate(-50%, -50%); */
 
 }
 
@@ -71,17 +80,19 @@ body{
     background: #2A7AE4;
     border: none;
     padding: 15px;
-    position: absolute;
-    left: 11%;
-    top: 64%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* left: 11%; */
+    /* top: 64%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .galeria{
     width: 80%;
     display: flex;
+    flex-direction: column;
     margin: 10px auto;
     border: 2px solid black;
+    height: 100%;
 }
 
 .star__wars{
@@ -89,7 +100,8 @@ body{
     flex-direction: column;
     /* border: 2px solid red; */
     width: 100%;
-    margin: 0px 0px;
+    height: 200px;
+    margin: 20px 0px 70px 0px;
 }
 
 .star__wars__section{
@@ -105,20 +117,23 @@ body{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #464646;
+    font-size: 30px;
 }
 
 .star__wars__vector{
     /* border: 2px solid red; */
     width: 1%;
     height: 10px;
+    color: #2A7AE4;;
 
 }
 
-.star__wars__ver{
+.star__wars__vertodo{
     /* border: 2px solid green; */
     margin-right: 0;
     width: calc(100% - 50% - 2%);
     text-align: right;
+    color: #2A7AE4;
 }
 
 .star__wars__productos{
@@ -127,9 +142,243 @@ body{
     justify-content: space-between;
 }
 
-.star__wars__imagen{
+.star__wars__producto{
     width: 140px;
     height: 140px;
     /* margin: 5px 10px; */
     margin: 5px 1px 0px 0px;
+}
+
+.star__wars__imagen{
+    width: 100%;
+}
+
+.star__wars__nombre{
+    font-size: 13px;
+    width: 100%;
+}
+
+.star__wars__precio{
+    font-size: 12px;
+}
+
+.star__wars__ver{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Seccion Consolas */
+
+.consolas{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin: 0px 0px; */
+    height: 200px;
+    margin: 20px 0px 70px 0px;
+}
+
+.consolas__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consolas__titulo{
+    /* border: 2px solid blue; */
+    width: 50%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #464646;
+    font-size: 30px;
+}
+
+.consolas__vector{
+    /* border: 2px solid red; */
+    width: 1%;
+    height: 10px;
+    color: #2A7AE4;
+
+}
+
+.consolas__vertodo{
+    /* border: 2px solid green; */
+    margin-right: 0;
+    width: calc(100% - 50% - 2%);
+    text-align: right;
+    color: #2A7AE4;
+}
+
+.consolas__productos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.consolas__producto{
+    width: 140px;
+    height: 140px;
+    /* margin: 5px 10px; */
+    margin: 5px 1px 0px 0px;
+}
+
+.consolas__imagen{
+    width: 100%;
+}
+
+.consolas__nombre{
+    font-size: 13px;
+    width: 100%;
+}
+
+.consolas__precio{
+    font-size: 12px;
+}
+
+.consolas__ver{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+/* Seccion Diversos */
+
+.diversos{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin: 0px 0px; */
+    height: 200px;
+    margin: 20px 0px 70px 0px;
+}
+
+.diversos__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diversos__titulo{
+    /* border: 2px solid blue; */
+    width: 50%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #464646;
+    font-size: 30px;
+}
+
+.diversos__vector{
+    /* border: 2px solid red; */
+    width: 1%;
+    height: 10px;
+    color: #2A7AE4;
+
+}
+
+.diversos__vertodo{
+    /* border: 2px solid green; */
+    margin-right: 0;
+    width: calc(100% - 50% - 2%);
+    text-align: right;
+    color: #2A7AE4;
+}
+
+.diversos__productos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.diversos__producto{
+    width: 140px;
+    height: 140px;
+    /* margin: 5px 10px; */
+    margin: 5px 1px 0px 0px;
+}
+
+.diversos__imagen{
+    width: 100%;
+}
+
+.diversos__nombre{
+    font-size: 13px;
+    width: 100%;
+}
+
+.diversos__precio{
+    font-size: 12px;
+}
+
+.diversos__ver{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.contacto{
+    background: #EAF2FD;
+    height: 380px;
+}
+
+.contacto__caja{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.contacto__logo{
+    margin-top: 24px;
+}
+
+.info{
+    line-height: 30px;
+    
+}
+
+.info__lista__item{
+    list-style: none;
+}
+
+.info__lista__item__link{
+    text-decoration: none;
+    color: #464646;
+    font-size: 15px;
+    line-height: 3;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+}
+
+.form input{
+    width: 473px;
+    /* height: 50px; */
+    border: none;
+    margin-bottom: 15px;
+    
+}
+
+.form__nombre{
+    height: 45px;
+}
+
+.form__mensaje{
+    height: 85px;
+}
+
+.form__botton{
+    color: #fdfdfd;
+    background: #2A7AE4;
+    border: none;
+    padding: 15px;
+    width: 30%;
 }
