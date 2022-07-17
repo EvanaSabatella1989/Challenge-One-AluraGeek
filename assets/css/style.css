@@ -1,9 +1,41 @@
+body{
+    background: #FFFFFF;;
+}
+
 .cabecera{
-    border: 2px solid red;
+    
     width: 80%;
     margin: 2px auto;
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.cabecera__logo{
+    width: 20%;
+}
+
+.cabecera__buscador{
+    width: 35%;
+    height: 15px;
+    border-radius: 20px;
+    border: none;
+    background: #F5F5F5;
+    padding: 8px 16px;
+}
+
+.cabecera__boton{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    width: 17%;
+    margin-left: 150px;
 }
 
 .banner__imagen{
@@ -43,4 +75,61 @@
     left: 11%;
     top: 64%;
     transform: translate(-50%, -50%);
+}
+
+.galeria{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+.star__wars{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.star__wars__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star__wars__titulo{
+    /* border: 2px solid blue; */
+    width: 50%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #464646;
+}
+
+.star__wars__vector{
+    /* border: 2px solid red; */
+    width: 1%;
+    height: 10px;
+
+}
+
+.star__wars__ver{
+    /* border: 2px solid green; */
+    margin-right: 0;
+    width: calc(100% - 50% - 2%);
+    text-align: right;
+}
+
+.star__wars__productos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.star__wars__imagen{
+    width: 140px;
+    height: 140px;
+    /* margin: 5px 10px; */
+    margin: 5px 1px 0px 0px;
 }
