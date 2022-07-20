@@ -12,17 +12,33 @@ body{
     align-items: center;
 }
 
+.menu{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .cabecera__logo{
     width: 20%;
 }
 
 .cabecera__buscador{
-    width: 35%;
-    height: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    height: 30px;
     border-radius: 20px;
     border: none;
     background: #F5F5F5;
     padding: 8px 16px;
+    color: #A2A2A2;
+    font-size: 1rem;
+}
+
+.cabecera__buscador__lupa{
+    margin-left: 136px;
 }
 
 .cabecera__boton{
@@ -35,7 +51,7 @@ body{
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
     width: 17%;
-    margin-left: 150px;
+    margin-left: 220px;
 }
 
 .banner{
@@ -91,7 +107,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 10px auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
 }
 
@@ -382,3 +398,335 @@ body{
     padding: 15px;
     width: 30%;
 }
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 25px;
+    color: #464646;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cabecera{
+    
+        width: 95%;
+        
+    }
+
+    .cabecera__logo{
+        width: 16%;
+    }
+
+    .cabecera__buscador{
+        font-size: 0.8rem;
+        width: 49%;
+    }
+
+    .cabecera__buscador__lupa {
+        margin-left: 100px;
+    }
+
+    .cabecera__boton{
+        margin-left: 130px;
+        padding: 7px;
+        
+    }
+
+    .banner__imagen{
+       
+        height: 320px;
+    }
+
+    .banner__contenido{
+    
+    
+        
+        left: 42%;
+        top: 50%;
+        
+    }
+
+    .galeria{
+        width: 95%;
+        
+    }
+
+    .star__wars{
+        
+        height: 220px;
+        
+    }
+
+    .star__wars__producto:nth-child(5){
+        display: none;
+    }
+
+    .star__wars__producto:nth-child(6){
+        display: none;
+    }
+
+    .star__wars__producto{
+        width: 167px;
+       
+    }
+
+    .star__wars__titulo{
+       
+        font-size: 25px;
+    }
+
+    .consolas{
+        
+        height: 220px;
+        
+    }
+
+    .consolas__producto:nth-child(5){
+        display: none;
+    }
+
+    .consolas__producto:nth-child(6){
+        display: none;
+    }
+
+    .consolas__producto{
+        width: 167px;
+       
+    }
+
+    .consolas__titulo{
+       
+        font-size: 25px;
+    }
+
+    .diversos{
+        
+        height: 220px;
+        
+    }
+
+    .diversos__producto:nth-child(5){
+        display: none;
+    }
+
+    .diversos__producto:nth-child(6){
+        display: none;
+    }
+
+    .diversos__producto{
+        width: 167px;
+       
+    }
+
+    .diversos__titulo{
+       
+        font-size: 25px;
+    }
+
+    .contacto{
+        height: 411px;
+    }
+
+    .contacto__caja{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 20px auto;
+        padding-top: 20px;
+        height: 385px;
+        /* border: 2px solid red; */
+        justify-content: flex-start;
+    }
+
+    .form{
+        margin-left: 87px;
+        /* border: 2px solid black; */
+    }
+
+    .form input{
+        width: 440px;
+    }
+
+    .form__botton{
+        padding: 12px;
+        width: 34%;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 425px){
+
+    .cabecera__logo {
+        width: 25%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 69%;
+    }
+
+    .cabecera__boton {
+        margin-left: 45px;
+        padding: 7px 7px;
+        width: 45%;
+    }
+
+    .cabecera__buscador{
+        visibility: hidden;
+        width: 30%;
+        
+        
+    }
+
+    .cabecera__buscador__lupa {
+        visibility: visible;
+        /* position: absolute; */
+        
+    }
+
+    .banner__contenido{
+        width: 100%;
+        left: 52%;
+        top: 47%;
+        line-height: 40px;
+    }
+
+    .banner__imagen {
+        height: 270px;
+    }
+
+    .banner__titulo {
+        
+        font-size: 1.7rem;
+    }
+
+    .banner__subtitulo {
+       
+        font-size: 1rem;
+    }
+
+    .banner__boton{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .star__wars__vector {
+       
+        width: 4%;
+       
+    }
+
+    .star__wars__vertodo{
+       margin-right: 6px;
+       
+    }
+
+    .star__wars{
+        height: 570px;
+        margin: 0px 0px;
+    }
+
+    .star__wars__productos{
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 100%;
+    }
+
+    .star__wars__producto{
+        width: 48%;
+        height: 255px;
+    }
+
+    .consolas__vector {
+       
+        width: 4%;
+       
+    }
+
+    .consolas__vertodo{
+       margin-right: 6px;
+       
+    }
+
+    .consolas{
+        height: 570px;
+        margin: 30px 0px;
+    }
+
+    .consolas__productos{
+        display: flex;
+        flex-wrap: wrap;
+       
+        width: 100%;
+    }
+    
+    .consolas__producto{
+        width: 48%;
+        height: 255px;
+        
+    }
+
+    .diversos__vector {
+       
+        width: 4%;
+       
+    }
+
+    .diversos__vertodo{
+       margin-right: 6px;
+       
+    }
+
+    .diversos{
+        height: 570px;
+        margin: 0px 0px;
+    }
+
+    .diversos__productos{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
+    .diversos__producto{
+        width: 48%;
+        height: 255px;
+        
+    }
+
+    .contacto{
+        height: 695px;
+    }
+
+    .contacto__caja {
+    flex-wrap: nowrap;
+       justify-content: flex-start;
+       align-items: center;
+    }
+
+    .form {
+        margin-left: 0px;
+        
+        width: 100%;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .form__botton {
+       
+        width: 37%;
+    }
+}
+
+

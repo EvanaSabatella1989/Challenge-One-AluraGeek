@@ -14,14 +14,22 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
     <header>
         <section class="cabecera">
             <img class="cabecera__logo" src="./assets/imagenes/Logo.png" alt="">
-            <input class="cabecera__buscador" type="text" placeholder="¿que deseas buscar?">
-            <button class="cabecera__boton">Login</button>
+            <div class="menu">
+                <button class="cabecera__buscador"><img src="./assets/imagenes/lupa.png"
+                        class="cabecera__buscador__lupa" alt="">¿que deseas buscar?</button>
+                <button class="cabecera__boton">Login</button>
+            </div>
+            <!-- <button class="cabecera__buscador"><img src="./assets/imagenes/lupa.png" class="cabecera__buscador__lupa"
+                    alt="">¿que deseas buscar?</button>
+            <button class="cabecera__boton">Login</button> -->
+
         </section>
     </header>
     <main>
@@ -142,7 +150,7 @@
 
             <div class="diversos">
                 <div class="diversos__section">
-                    <h2 class="diversos__titulo">Consolas</h2>
+                    <h2 class="diversos__titulo">Diversos</h2>
                     <p class="diversos__vertodo">Ver todo </p>
                     <img class="diversos__vector" src="./assets/imagenes/Vector.png" alt="">
                 </div>
@@ -228,8 +236,9 @@
 
         </section>
     </main>
-    <footer>
-
+    <footer class="pie">
+        <h4 class="pie__autor">Desarrollado por Fulana de Tal</h4>
+        <p class="pie__año">2021</p>
     </footer>
 
 
