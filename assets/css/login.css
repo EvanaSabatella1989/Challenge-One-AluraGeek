@@ -32,3 +32,29 @@
     padding: 15px;
     width: 80%;
 }
+
+@media screen and (max-width:768px){
+    
+    .login__datos{
+        
+        width: 50%;
+        
+    }
+
+    .login__datos__titulo{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .login__datos{
+        
+        width: 100%;
+        
+    }
+
+    .login__datos__titulo{
+        font-size: 30px;
+    }
+    
+}

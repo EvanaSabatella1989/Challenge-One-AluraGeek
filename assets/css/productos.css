@@ -1,0 +1,69 @@
+.agregar__producto{
+    color: #fdfdfd;
+    background: #2A7AE4;
+    border: none;
+    padding: 12px;
+    width: 14%;
+    font-size: 13px;
+}
+
+@media screen and (max-width:768px) {
+
+    .agregar__producto{
+       
+        width: 22%;
+        font-size: 15px;
+    }
+    .star__wars__producto:nth-child(5){
+        display: block;
+    }
+
+    .star__wars__producto:nth-child(6){
+        display: block;
+    }
+
+    .consolas__producto:nth-child(5){
+        display: block;
+    }
+
+    .consolas__producto:nth-child(6){
+        display: block;
+    }
+
+    .diversos__producto:nth-child(5){
+        display: block;
+    }
+
+    .diversos__producto:nth-child(6){
+        display: block;
+    }
+
+    .star__wars__productos{
+       flex-wrap: wrap;
+       justify-content: start;
+    }
+
+    .star__wars__producto{
+        height: 250px;
+        margin: 7px -10px 0px 18px;
+     }
+
+    .consolas__productos{
+        flex-wrap: wrap;
+    }
+
+    .consolas__producto{
+        height: 250px;
+        margin: 7px -10px 0px 18px;
+     }
+
+
+    .diversos__productos{
+        flex-wrap: wrap;
+    }
+
+    .diversos__producto{
+        height: 250px;
+        margin: 7px -10px 0px 18px;
+     }
+}
