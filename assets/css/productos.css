@@ -7,13 +7,75 @@
     font-size: 13px;
 }
 
+main{
+    background: #E5E5E5;
+}
+
+.galeria{
+    
+    width: 80%;
+    padding-top: 25px;
+    /* margin: 0px auto; */
+}
+
+.star__wars__section{
+    margin-bottom: 10px;
+}
+
+.star__wars__productos{
+    flex-wrap:wrap ;
+}
+
+.star__wars__producto{
+    height: 245px;
+}
+
+.consolas__producto{
+    height: 245px;
+}
+
+.diversos__producto{
+    height: 245px;
+}
+
 @media screen and (max-width:768px) {
+    .cabecera{
+        width: 88%;
+    }
+
+    .cabecera__logo{
+        width: 24%;
+    }
+
+    .cabecera__buscador{
+        width: 57%;
+    }
+
+    .galeria{
+        width: 95%;
+    }
 
     .agregar__producto{
        
         width: 22%;
         font-size: 15px;
     }
+
+    .star__wars__section{
+        width: 96%;
+    }
+
+    .star__wars__titulo{
+        margin-left: 29px;
+    }
+
+    .star__wars__productos{
+        width: 97%;
+        margin: 10px auto;
+    }
+
+    
+
     .star__wars__producto:nth-child(5){
         display: block;
     }
@@ -46,6 +108,7 @@
     .star__wars__producto{
         height: 250px;
         margin: 7px -10px 0px 18px;
+        width: 158px;
      }
 
     .consolas__productos{
@@ -55,6 +118,7 @@
     .consolas__producto{
         height: 250px;
         margin: 7px -10px 0px 18px;
+        width: 158px;
      }
 
 
@@ -65,5 +129,57 @@
     .diversos__producto{
         height: 250px;
         margin: 7px -10px 0px 18px;
+        width: 158px;
      }
+}
+
+@media screen and (max-width: 425px) {
+    .cabecera{
+        width: 95%;
+    }
+
+    .cabecera__logo {
+        width: 30%;
+    }
+
+    .star__wars__section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .star__wars__titulo {
+        font-size: 25px;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .agregar__producto {
+        width: 49%;
+        font-size: 17px;
+    }
+
+    .star__wars__productos {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .star__wars__producto {
+        height: 250px;
+        margin: 10px 0px 5px 0px;
+        width: 180px;
+    }
+
+    .consolas__producto {
+        height: 250px;
+        margin: 10px 0px 5px 0px;
+        width: 180px;
+    }
+
+    .diversos__producto {
+        height: 250px;
+        margin: 10px 0px 5px 0px;
+        width: 180px;
+    }
 }

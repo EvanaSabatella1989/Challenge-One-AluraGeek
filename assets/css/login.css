@@ -1,4 +1,4 @@
-.login{
+main{
     background: #E5E5E5;
     /* height: 500px; */
 }
@@ -16,6 +16,7 @@
 
 .login__datos__titulo{
     margin-bottom: 30px;
+    
 }
 
 .login__datos input{
@@ -23,6 +24,21 @@
     margin-bottom: 20px;
     height: 50px;
     border: none;
+}
+
+
+input::placeholder{
+    color: #A2A2A2;
+    font-size: 0.8em;
+    padding-top: 0;
+    
+   
+    
+    
+}
+
+.descripcion__producto{
+    padding: 15px 5px;
 }
 
 .login__datos__boton{

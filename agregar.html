@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek-Login</title>
+    <title>AluraGeek-Agregar Producto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+
+    <link rel="stylesheet" href="./assets/css/agregar.css">
 
 </head>
 
@@ -25,6 +26,7 @@
             <div class="menu">
                 <button class="cabecera__buscador"><img src="./assets/imagenes/lupa.png"
                         class="cabecera__buscador__lupa" alt="">¿que deseas buscar?</button>
+                <button class="cabecera__menu">Menu Administrador</button>
 
             </div>
 
@@ -33,13 +35,17 @@
     </header>
 
     <main>
-        <section class="login">
-            <div class="login__datos">
-                <h3 class="login__datos__titulo">Iniciar Sesión</h3>
-                <input type="text" placeholder="Escriba su correo electronico">
-                <input type="password" placeholder="Escriba su contraseña">
-                <button class="login__datos__boton">Entrar</button>
+        <section class="productos">
+            <div class="productos__datos">
+                <h3 class="productos__titulo">Agregar nuevo producto</h3>
+                <input type="text" placeholder="URL de imagen">
+                <input type="text" placeholder="Categoria">
+                <input type="text" placeholder="Nombre del producto">
+                <input type="text" placeholder="Precio del producto">
+                <input class="descripcion__producto" type="text" placeholder="Descripcion del producto">
+                <button class="productos__boton">Agregar producto</button>
             </div>
+
         </section>
         <section class="contacto">
             <div class="contacto__caja">
