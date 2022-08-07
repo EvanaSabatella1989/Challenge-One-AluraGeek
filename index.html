@@ -24,7 +24,7 @@
             <div class="menu">
                 <button class="cabecera__buscador"><img src="./assets/imagenes/lupa.png"
                         class="cabecera__buscador__lupa" alt="">¿que deseas buscar?</button>
-                <button class="cabecera__boton" onclick="IrAPaginaLogin()">Login</button>
+                <button class="cabecera__boton" onclick="IrAPagina('login.html')">Login</button>
             </div>
             <!-- <button class="cabecera__buscador"><img src="./assets/imagenes/lupa.png" class="cabecera__buscador__lupa"
                     alt="">¿que deseas buscar?</button>
@@ -38,7 +38,7 @@
             <div class="banner__contenido">
                 <h1 class="banner__titulo">Febrero Promocional</h1>
                 <h2 class="banner__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <button class="banner__boton">Ver Consolas</button>
+                <button class="banner__boton" onclick="moverseA('Seccionconsolas')">Ver Consolas</button>
             </div>
 
 
@@ -47,7 +47,7 @@
             <div class="star__wars">
                 <div class="star__wars__section">
                     <h2 class="star__wars__titulo">Star Wars</h2>
-                    <p class="star__wars__vertodo">Ver todo </p>
+                    <p class="star__wars__vertodo" onclick="IrAPagina('productos.html')">Ver todo </p>
                     <img class="star__wars__vector" src="./assets/imagenes/Vector.png" alt="">
                 </div>
                 <div class="star__wars__productos">
@@ -99,10 +99,10 @@
             </div>
 
 
-            <div class="consolas">
+            <div class="consolas" id="Seccionconsolas">
                 <div class="consolas__section">
                     <h2 class="consolas__titulo">Consolas</h2>
-                    <p class="consolas__vertodo">Ver todo </p>
+                    <p class="consolas__vertodo" onclick="IrAPagina('productos.html')">Ver todo </p>
                     <img class="consolas__vector" src="./assets/imagenes/Vector.png" alt="">
                 </div>
                 <div class="consolas__productos">
@@ -151,7 +151,7 @@
             <div class="diversos">
                 <div class="diversos__section">
                     <h2 class="diversos__titulo">Diversos</h2>
-                    <p class="diversos__vertodo">Ver todo </p>
+                    <p class="diversos__vertodo" onclick="IrAPagina('productos.html')">Ver todo </p>
                     <img class="diversos__vector" src="./assets/imagenes/Vector.png" alt="">
                 </div>
                 <div class="diversos__productos">
@@ -241,6 +241,7 @@
         <p class="pie__año">2021</p>
     </footer>
 
+    <script src="./assets/js/script.js"></script>
     <script src="./assets/js/login.js"></script>
 </body>
 
