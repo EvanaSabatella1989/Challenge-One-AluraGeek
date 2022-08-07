@@ -1,0 +1,18 @@
+{
+    "producto": [
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_6FDXGY9J6y4.png",
+        "categoria": "star-wars",
+        "nombre": "Producto XYZ",
+        "precio":"60",
+        "descripcion":"Hola"
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_epRFE_hBNjo.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Z",
+        "precio":"80",
+        "descripcion":"Alura"
+      }
+    ]
+  }
