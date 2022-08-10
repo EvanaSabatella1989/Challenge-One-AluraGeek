@@ -130,12 +130,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="form">
+                <form class="form">
                     <p>Hable con nosotros</p>
-                    <input class="form__nombre" type="text" placeholder="Nombre">
-                    <input class="form__mensaje" type="text" placeholder="Escribe tu mensaje">
+                    <input class="form__nombre" type="text" placeholder="Nombre" required data-tipo="nombre">
+                    <input class="form__mensaje" type="text" placeholder="Escribe tu mensaje" required
+                        data-tipo="nombre">
                     <button class="form__botton">Enviar mensaje</button>
-                </div>
+                </form>
             </div>
 
         </section>
@@ -146,7 +147,8 @@
         <p class="pie__año">2021</p>
     </footer>
 
-
+    <script src="./assets/js/app.js" type="module"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
