@@ -38,12 +38,12 @@
         <section class="productos">
             <form action="./productos.html" class="productos__datos" data-form>
                 <h3 class="productos__titulo">Agregar nuevo producto</h3>
-                <input name="url" id="url" type="text" placeholder="URL de imagen" data-url>
-                <input name="categoria" id="categoria" type="text" placeholder="Categoria" data-categoria>
-                <input name="nombre" id="nombre" type="text" placeholder="Nombre del producto" data-nombre>
-                <input name="precio" id="precio" type="text" placeholder="Precio del producto" data-precio>
+                <input name="url" id="url" type="text" placeholder="URL de imagen" required data-url>
+                <input name="categoria" id="categoria" type="text" placeholder="Categoria" required data-categoria>
+                <input name="nombre" id="nombre" type="text" placeholder="Nombre del producto" required data-nombre>
+                <input name="precio" id="precio" type="text" placeholder="Precio del producto" required data-precio>
                 <input name="descripcion" id="descripcion" class="descripcion__producto" type="text"
-                    placeholder="Descripcion del producto" data-descripcion>
+                    placeholder="Descripcion del producto" data-descripcion required>
                 <button type="submit" class="productos__boton">Agregar producto</button>
             </form>
 

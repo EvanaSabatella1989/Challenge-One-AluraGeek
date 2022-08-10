@@ -1,12 +1,13 @@
 import { productServices } from "../service/product-service.js";
 
-const crearNuevaLinea = (url,nombre,precio) => {
+const crearNuevaLinea = (url,nombre,precio,id) => {
     const linea = document.createElement("div");
+    linea.classList.add("diversos__producto");
    const contenido = `
             <img class="star__wars__imagen" src="${url}" alt="">
             <h3 class="star__wars__nombre">${nombre}</h3>
             <p class="star__wars__precio">${precio}</p>
-            <a class="star__wars__ver" href="#">Ver producto</a>
+            <a  href="../producto.html\?id=${id}" class="star__wars__ver">Ver producto</a>
         `;
         linea.innerHTML = contenido;
         return linea;

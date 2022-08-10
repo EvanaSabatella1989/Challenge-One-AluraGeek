@@ -6,12 +6,20 @@ const crearProducto = (url,nombre,precio) => {
       headers: {
         "Content-Type":"application/json"
       },
-      body: JSON.stringify({url,nombre,precio}),
+      body: JSON.stringify({url,nombre,precio,id: uuid.v4()}),
     });
+  }
+
+  const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/perfil/${id}`).then( respuesta => respuesta.json()
+    )
+  
+    
   }
 
 
 export const productServices = {
     listaProductos,
-    crearProducto
+    crearProducto,
+    detalleProducto
   };

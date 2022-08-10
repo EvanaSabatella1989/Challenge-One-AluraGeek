@@ -3,16 +3,163 @@
       {
         "url": "./assets/imagenes/star-wars/unsplash_6FDXGY9J6y4.png",
         "categoria": "star-wars",
-        "nombre": "Producto XYZ",
-        "precio":"60",
-        "descripcion":"Hola"
+        "nombre": "Producto Nuevo",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 1
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_epRFE_hBNjo.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo2",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 2
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_KeGToDVN0l4.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo3",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 3
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_4OHkK555s1A.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo4",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 4
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_R8L1l9RN198.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo5",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 5
+      },
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_1VV1MRafd7A.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo6",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 6
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_0POwK6iAiRQ.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo7",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 7
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_caNzzoxls8Q.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo8",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 8
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_ZV7lnfyQLmA.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo9",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 9
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_wa5z9o9fgjw.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo10",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 10
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_Zjn4dT993-g.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo11",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 11
+      },
+      {
+        "url": "./assets/imagenes/consolas/unsplash_k-xYhI3-gJM.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo12",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 12
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_fMP-oCze3AY.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo13",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 13
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_bUgaIaZysH0.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo14",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 14
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_sYVY_ZKwaxU.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo15",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 15
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_jMT6BrgBuXU.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo16",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 16
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_MxVkWPiJALs.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo17",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 17
+      },
+      {
+        "url": "./assets/imagenes/diversos/unsplash_r27umXAelDc.png",
+        "categoria": "star-wars",
+        "nombre": "Producto Nuevo18",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 18
+      },
+      
+      {
+        "url": "./assets/imagenes/star-wars/unsplash_6FDXGY9J6y4.png",
+        "categoria": "star-wars",
+        "nombre": "Producto AAA",
+        "precio":" $ 60",
+        "descripcion":"Hola",
+        "id": 19
       },
       {
         "url": "./assets/imagenes/star-wars/unsplash_epRFE_hBNjo.png",
         "categoria": "star-wars",
         "nombre": "Producto Z",
-        "precio":"80",
-        "descripcion":"Alura"
+        "precio":"$ 80",
+        "descripcion":"Alura",
+        "id": 20
       }
     ]
   }
