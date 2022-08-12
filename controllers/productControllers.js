@@ -17,9 +17,9 @@ const div = document.querySelector("[data-product]");
 
 productServices.listaProductos().then((data) => {
     data.forEach(producto => {
-        const nuevoProducto = crearNuevaLinea(producto.url,producto.nombre,producto.precio);
+        const nuevoProducto = crearNuevaLinea(producto.url,producto.nombre,producto.precio,producto.id);
         div.appendChild(nuevoProducto);
     });
-}).catch((error) => alert("Ocurrio un error"));
+}).catch((error) => alert("No se pudo encontrar el producto"));
 
 

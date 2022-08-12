@@ -34,17 +34,27 @@
 
     <main>
         <section class="producto">
-            <div class="producto__principal">
+            <!-- <form class="producto__principal" data-form> -->
+            <div class="producto__principal" data-form>
+
+                <input type="image" src="" alt="" data-url>
                 <img src="./assets/imagenes/star-wars/unsplash_6FDXGY9J6y4.png" alt=""
                     class="producto__imagen__principal">
+
                 <div class="producto__descripcion">
-                    <h1>Producto XYZ</h1>
+                    <h1 data-nombre>Producto XYZ</h1>
+                    <!-- <input type="text" data-nombre> -->
+
                     <p>$60.00</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique aliquam saepe in modi
+                    <!-- <input type="text" data-precio> -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique aliquam
+                        saepe in modi
                         officiis
                         eum, numquam distinctio? Ipsum commodi exercitationem tempore nostrum iusto itaque blanditiis,
                         illum
                         maxime aliquid, in quidem?</p>
+                    <!-- <input type="text" data-descripcion readonly> -->
+
                 </div>
 
             </div>
@@ -147,9 +157,10 @@
         <p class="pie__año">2021</p>
     </footer>
 
-    <script src="./service/product-service.js"></script>
+    <!-- <script src="./service/product-service.js"></script> -->
     <script src="./assets/js/app.js" type="module"></script>
     <script src="./assets/js/script.js"></script>
+    <script type="module" src="./controllers/detalleProductoControllers.js"></script>
 </body>
 
 </html>
